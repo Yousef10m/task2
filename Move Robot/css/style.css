@@ -1,0 +1,26 @@
+body {font-family: 'Cairo', sans-serif;}
+a {text-decoration: none;}
+::placeholder {color: #ccc}
+main {
+    background: #001e2c;
+    background: -webkit-linear-gradient(to top, #014768, #001e2c);
+    background: linear-gradient(to top, #014768, #001e2c);
+    height: 100vh;
+    color: #fff;
+    padding: 1rem;
+}
+
+.robot-area {
+    height: 70vh;
+    padding: 1rem;
+    border-radius: .25rem;
+    background-color: #009688;
+    overflow: hidden;
+}
+
+.cotrol-area .buttons {
+    width: 10rem;
+    margin: 1rem auto 0;
+}
+
+.btn {font-weight: bold;}
